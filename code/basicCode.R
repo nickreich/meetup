@@ -1,4 +1,5 @@
 ## this is my test file
 
-a <- rnorm(100)
-hist(a)
+a <- rnorm(10000)
+
+hist(a, breaks=100)
